@@ -1,0 +1,22 @@
+footer{
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #1f1f1f;
+  color: white;
+  text-align: center;
+  position: fixed;
+}
+
+img{
+  margin-top:20px;
+  margin-bottom: 20px;
+}
+
+.footer-height{
+  padding-bottom: 3rem;
+}
+
+.about{
+  margin-top:20px;
+}

@@ -1,129 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <style>{
-.aaa {
-   position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 50%;
-   
-}
-.Icon {
-  width: 100%;
-  overflow: auto;
-}
-.Icon a {
-    float: left;
-  text-align: center;
-  color: black;
-  font-size: 36px;
-}
+  <style>
+    footer{
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: #1f1f1f;
+      color: white;
+      text-align: center;
+      position: fixed;
     }
 
-    </style>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Mersonal Blog</title>
-    <meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    .marginbottom{
+      margin-bottom: 75px ;
+    }
+  </style>
 
-
-</head>
-<body>    
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     
-    <div class="jumbotron text-center jumbotron-fluid" style="background:#1f1f1f;"  >
-        <div class=" text-success">
-        <div class="container">
-          <h1>Maryam Haider Metib</h1>
-          <p><h3>I love Cats 🐱🐱 & Gaming 🎮 & like Singing 🥰</h3></p>
-          <p><h4>keep going Mary ❤...</h4></p>
-        </div>
-      </div>
-    </div>
-
-
-
-    <nav class="navbar navbar-expand-sm bg-success navbar-dark fixed-top">
-        
+</head>
+<body>  
+  <nav style="background:brown;" class="navbar navbar-expand-sm navbar-dark sticky-top">
+    <a class="navbar-brand" href="index.html"><i class="fa fa-home" style="font-size:24px"></i></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
       <ul class="navbar-nav">
-        
-          <li>
-        <div class="Icon">
-            <a class="active" href="#"><i class="fa fa-home"></i></a>
-          </li>
-        </div>
-
         <li class="nav-item">
-          <a class="nav-link" href="#" style="color:#1f1f1f; font-size: 20px;">Contact Me</a>
+          <a class="nav-link" href="about.html">About</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#" style="color:#1f1f1f; font-size: 20px;">About</a>
-         </li>
-         <li class="nav-item">
-            <a class="nav-link" href="#" style="color:indigo; font-style: italic;font-size: 20px; ">Login</a>
-         </li>
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
       </ul>
-    </nav>
-<center>
-<h1>My Posts</h1>
-</center>
-
-<center>
-    <div class="card" style="width:950px">
-        <img class="card-img-top" src="img_avatar1.png" alt="Card image" style="width:100%">
-        <div class="card-body">
-          <h4 class="card-title">John Doe</h4>
-          <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
-          <a href="#" class="btn btn-primary">See Profile</a>
-        </div>
-      </div>
- </center>
-<br>
- <center>
-    <div class="card" style="width:950px">
-        <img class="card-img-top" src="img_avatar1.png" alt="Card image" style="width:100%">
-        <div class="card-body">
-          <h4 class="card-title">John Doe</h4>
-          <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
-          <a href="#" class="btn btn-primary">See Profile</a>
-        </div>
-      </div>
- </center>
-
- <br>
- <center>
-    <div class="card" style="width:950px">
-        <img class="card-img-top" src="img_avatar1.png" alt="Card image" style="width:100%">
-        <div class="card-body">
-          <h4 class="card-title">John Doe</h4>
-          <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
-          <a href="#" class="btn btn-primary">See Profile</a>
-        </div>
-      </div>
- </center>
-     
-
-    
- <footer class="footer mt-auto py-3">
-    <div class="container">
-        <center>
-      <span>&copy; <b class="aaa">Mary 2020</b></span>
     </div>
-</center>
-</footer>
-<script>
-            CKEDITOR.replace( 'editor1' );
-        </script> 
-    
-    
-    
-    
+  </nav>
+  
+  <div class="jumbotron text-center jumbotron-fluid" style="background:#1f1f1f;margin-top: 0px;"  >
+      <div class=" text-success">
+      <div class="container">
+        <h1>Maryam Haider Metib</h1>
+        <p><h3>I love programming💻 & Cats 🐱 & Gaming 🎮 & like Singing 🥰</h3></p>
+        <p><h4>keep going Mary ❤...</h4></p>
+      </div>
+    </div>
+  </div>
+
+  <h1 class="text-center">My Posts</h1><br>
+
+  <div class="container marginbottom">
+    <div class="media border p-3">
+      <img src="https://www.w3schools.com/bootstrap4/img_avatar6.png" class="mr-3 mt-3 rounded-circle" style="width:60px;">
+      <div class="media-body">
+          <h4>Front End Developer <small><i>Posted on 2020-11-18 10:04:24</i></small></h4>
+          <p>While web design is the way a website looks, front end development is how that design actually gets implemented on the web.A front end web developer is the person who implements web designs through coding languages like HTML, CSS, and JavaScript. Though it’s not as common anymore, front end developers are/were sometimes called “client-side developers” to distinguish them from back end developers who program what goes on behind the scenes (like databases). If you head to any site, you can see the work of a front end developer everywhere—in the navigation, layouts including this article page, even the way that a site looks different from your phone (thanks to mobile-first or responsive design). Want more? You can read our guide on everything it takes to start a web developer career here.
+
+            Now that we’ve got that out of the way, this article will break down some of the key skills front end web developers use on the job. </p> 
+          <img class="card-img-top" src="2.jpg" alt="Card image" style="width:100%">
+      </div>
+    </div>
+    <br>
+    <div class="media border p-3">
+      <img src="https://www.w3schools.com/bootstrap4/img_avatar6.png" class="mr-3 mt-3 rounded-circle" style="width:60px;">
+      <div class="media-body">
+          <h4>About Cats <small><i>Posted on 2020-11-25 11:06:24</i></small></h4>
+          <p>Your donation to the Animal Defense League of Texas will immediately impact the lives of the thousands of abandoned, abused, or neglected dogs and cats by providing needed medical care, food, shelter, and safety. With a 4-star rating from Charity Navigator, you can donate in confidence that every dollar is utilized responsibly. As San Antonio’s oldest no-kill shelter, we continue to lead the city towards its live-release goals. Please, help us save more homeless pets by making a donation today!
+
+            All donations are tax deductible and our 501c3 Letter, ADL W-9 form, and 2019 ADL Annual Report are available for download. Please be sure to also view our 2019 Audited Financial Statements. To request a copy of ADL’s 2018 990, please send your request to Joel McLellan, ADL Executive Director.
+            
+            The Animal Defense League of Texas will never share or sell a donor’s personal information with anyone else, nor send donor mailings on behalf of other organization</p> 
+          <img class="card-img-top" src="1.jpg" alt="Card image" style="width:100%">
+      </div>
+    </div>
+    <br>
+    <div class="media border p-3">
+      <img src="https://www.w3schools.com/bootstrap4/img_avatar6.png" class="mr-3 mt-3 rounded-circle" style="width:60px;">
+      <div class="media-body">
+          <h4>C# Application <small><i>Posted on 2020-11-26 11:17:26</i></small></h4>
+          <p>C# (pronounced see sharp, like the musical note C♯, but written with the number sign)[b] is a general-purpose, multi-paradigm programming language encompassing static typing, strong typing, lexically scoped, imperative, declarative, functional, generic, object-oriented (class-based), and component-oriented programming disciplines.[16]
+
+            C# was developed around 2000 by Microsoft as part of its .NET initiative and later approved as an international standard by Ecma (ECMA-334) in 2002 and ISO (ISO/IEC 23270) in 2003. It was designed by Anders Hejlsberg, and its development team is currently led by Mads Torgersen, being one of the programming languages designed for the Common Language Infrastructure (CLI). The most recent version is 9.0, which was released in 2020 in .NET 5.0 and included in Visual Studio 2019 version 16.8.[17][18]
+            
+            Mono is a free and open-source project to develop a cross-platform compiler and runtime environment (i.e. virtual machine) for the language.</p> 
+          <img class="card-img-top" src="4.jpg" alt="Card image" style="width:100%">
+      </div>
+    </div>
+    <br>
+  </div>
+
+
+  <div class="container text-center">
+    <a class="twitter-timeline" data-width="500" href="https://twitter.com/Maryam Haider Metib?ref_src=twsrc%5Etfw">Tweets by Mary Haider</a>
+     <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  </div>
+
+
+
+
+
+  <footer class="footer mt-auto py-3">
+    <div class="container">
+      <span>&copy; <b>Meowy 2020</b></span>
+    </div>
+  </footer>
 </body>
 </html>
