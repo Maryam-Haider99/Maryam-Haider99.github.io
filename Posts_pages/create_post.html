@@ -3,14 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Create_post</title>
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
-<body>
+<body style="background-color: cadetblue;">
+    <h1 class="text-center" style="font-size: 40px; font-weight: bold;">Create Post Page</h1>
+    <div class="container" style="margin-top: 10px;">
+    <div class="form-group">
+    <label for="lead" style="font-size: 25px;">Title:</label>
+      <input type="text" class="form-control" id="title" placeholder="enter the title"class="form-control" >
+    </div>
+
+    <div class="form-group">
+        <label for="comment" style="font-size: 25px;">Article:</label>
+        <textarea class="form-control" rows="5" cols="30" id="comment" placeholder="Article here"class="form-control" ></textarea>
+      </div>
+
+      <div class="form-group">
+        <label style="font-size: 25px;">Upload Image:</label>
+        <input type="file" name="userfile" size="20">
+        <br><br>
+        <p class="alert alert-info" role="alert">Uploading image is optional.</p>
+        <p class="alert alert-warning" role="alert">Image size is limited to 2 MB.</p>
+    </div>
+
+    <input type="submit" class="btn btn-secondary btn-block"  value="Submit" style="font-size: 25px; font-weight: bold;">
+
+</div>
+
+
     
 
 
-
-
-    
 </body>
 </html>
