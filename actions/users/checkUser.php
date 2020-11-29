@@ -26,13 +26,9 @@
     //put the result of the query in a variable ($result)
     $result = $stmt->fetch(PDO::FETCH_ASSOC);
 
-    print_r($result);
-    /*
     if($result['username'] != ''){
-        echo json_encode(['isFound' => 'true']);
+        redirect('google.com');
     }
     else{
-        echo json_encode(['isFound' => 'false']);
     }
-    */
 ?>
