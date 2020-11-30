@@ -8,8 +8,55 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="nav.css">  
+
+
 </head>
-<body style="background-color:cadetblue">
+<body>
+  <div id="mySidebar" class="sidebar">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+    <a href="Template/contact.html">Contact</a>
+    <a href="Template/about.html">About</a>
+    <a href="login.html">Login</a>
+
+  </div>
+  
+  <div id="main" style="background-color:brown;">
+      
+    <h1 class="text-center"><button class="openbtn" onclick="openNav()" style="background-color: brown; font-style: italic; font-size: 25px;">☰ Maryam Haider Metib </button></h1>  
+    
+  </div>
+  
+  <script>
+  function openNav() {
+    document.getElementById("mySidebar").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+  }
+  
+  function closeNav() {
+    document.getElementById("mySidebar").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+  }
+  </script>
+
+
+
+
+
+
+
+
+<div class="jumbotron text-center jumbotron-fluid" style="background:#1f1f1f;margin-top: 0px;"  >
+  <div class=" text-success">
+  <div class="container">
+    <h1>Maryam Haider Metib</h1>
+    <p><h3>I love programming💻 & Cats 🐱 & Gaming 🎮 & like Singing 🥰</h3></p>
+    <p><h4>keep going Mary ❤...</h4></p>
+  </div>
+</div>
+</div>
+
+
     <h1 class="text-center" style="font-size: 40px; font-weight: bold; color: black;">Edit Post Page</h1>
     <div class="container" style="margin-top: 30px;">
     <div class="form-group">
@@ -22,9 +69,8 @@
         <textarea class="form-control" rows="5" cols="30" id="comment" placeholder="Article here"class="form-control" ></textarea>
       </div>
 
-      
-
-    <input type="submit" class="btn btn-secondary btn-block"  value="Submit" style="font-size: 25px; font-weight: bold;">
+    
+    <input type="submit" class="btn btn-primary btn-block"  value="Submit" style="font-size: 25px; font-weight: bold;">
 
 </div>
 
