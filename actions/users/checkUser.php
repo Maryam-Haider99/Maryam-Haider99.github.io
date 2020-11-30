@@ -25,10 +25,14 @@
 
     //put the result of the query in a variable ($result)
     $result = $stmt->fetch(PDO::FETCH_ASSOC);
+         echo"$result";
+
+    /*
+
 
     if($result['username'] != ''){
-        redirect('google.com');
+        header('Location: https://www.google.com'); exit();
     }
     else{
     }
-?>
+?>/*
